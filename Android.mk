@@ -1,4 +1,4 @@
-ifeq ($(TARGET_QCOM_DISPLAY_VARIANT),caf-bfam)
+ifeq ($(TARGET_QCOM_DISPLAY_VARIANT),caf)
 display-hals := libgralloc libcopybit libvirtual
 display-hals += libhwcomposer liboverlay libqdutils libhdmi libqservice
 display-hals += libmemtrack hdmi_cec
